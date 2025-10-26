@@ -11,13 +11,24 @@ export default function Experience() {
   {
     role: 'Software Developer',
     company: 'CVLR GLOBAL PRIVATE LTD',
-    period: 'Aug 2025 - Present',
+    period: 'July 2025 - Present',
     description: [
       'Building and maintaining full-stack web applications using React for the frontend and Spring Boot for the backend',
       'Developing interactive game modules with real-time scoring, user progress tracking, and in-app notifications to enhance engagement',
       'Collaborating within a 5-member SCRUM team and managing Git workflows for smooth integration and deployment',
       'Integrating Firebase for real-time push notifications and authentication, along with MySQL for efficient data storage and management',
       'Contributing to end-to-end development, including system design, feature implementation, testing, and performance optimization'
+    ]
+  }, {
+    role: 'Full Stack Trainee',
+    company: 'Career Bridge IT Services',
+    period: 'Aug 2024 - March 2025',
+   description: [
+   ' During my course period, I have developed a strong foundation in full stack development. I have learned how to build and maintain web applications',
+   ' using React for the frontend and Spring Boot for the backend. This has enabled me to create interactive and engaging user interfaces, along with robust and scalable backend systems.',
+   '    I have also gained experience in developing game modules with real-time scoring, user progress tracking, and in-app notifications.',' This has helped me enhance user engagement and create immersive gaming experiences.'
+
+
     ]
   }
 ];

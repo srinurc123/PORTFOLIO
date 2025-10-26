@@ -17,7 +17,7 @@ export default function Hero() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
           >
-            Hi, I'm <span className="gradient-text">Your Name</span>
+            Hi, I'm <span className="gradient-text">Shanmukha Srinivas</span>
           </motion.h1>
 
           <motion.p
@@ -36,10 +36,9 @@ export default function Hero() {
             transition={{ delay: 0.6 }}
           >
             {[
-              { icon: FaGithub, link: '#' },
-              { icon: FaLinkedin, link: '#' },
-              { icon: FaTwitter, link: '#' },
-              { icon: FaEnvelope, link: '#contact' },
+              { icon: FaGithub, link: 'https://github.com/srinurc123' },
+              { icon: FaLinkedin, link: 'https://www.linkedin.com/in/shanmukha-srinivas-52a1072b7' },
+            
             ].map((social, index) => (
               <motion.a
                 key={index}

@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Personal Portfolio
 
-## Getting Started
+Welcome to my Personal Portfolio! This website showcases my projects, technical skills, and professional journey as a software developer. It’s designed to highlight my expertise, creativity, and growth in the field of full-stack development.
 
-First, run the development server:
+Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+About Me: A brief introduction and background overview.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Projects: Showcases my key software projects with descriptions and links to live demos or repositories.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Skills: Highlights my technical skills across frontend, backend, and database technologies.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Contact: Easy access to reach me via email or social platforms.
 
-## Learn More
+Responsive Design: Works smoothly on all devices for a seamless experience.
 
-To learn more about Next.js, take a look at the following resources:
+Purpose
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This portfolio serves as a digital resume to connect with recruiters, collaborators, and other developers while providing a quick insight into my capabilities and achievements.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Future Enhancements
 
-## Deploy on Vercel
+Add blog or article section
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Integrate dark/light theme toggle
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Include downloadable resume feature
+
+Contact
+
+Developed by Shanmukha Srinivas
+Email: srinuvalasani5@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/shanmukha-srinivas-52a1072b7
+
+GitHub: https://github.com/srinurc123

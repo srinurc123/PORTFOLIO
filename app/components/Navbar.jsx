@@ -15,7 +15,7 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
-  const navItems = ['Home', 'About', 'Skills', 'Projects', 'Experience', 'Contact']
+  const navItems = ['Home', 'About', 'Skills', 'Projects', 'Experience', 'Education', 'Contact']
 
   return (
     <motion.nav
@@ -31,7 +31,7 @@ export default function Navbar() {
             whileHover={{ scale: 1.1 }}
             className="text-2xl font-bold gradient-text"
           >
-            Portfolio
+           Personal Portfolio
           </motion.div>
 
           {/* Desktop Menu */}

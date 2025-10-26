@@ -7,19 +7,17 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-400 flex items-center gap-2">
-            Made with <FaHeart className="text-red-500" /> by Your Name
+            Made with <FaHeart className="text-red-500" /> by Shanmukha Srinivas
           </p>
 
           <div className="flex gap-6">
-            <a href="#" className="hover:text-blue-400 transition-colors">
+            <a href="https://github.com/srinurc123" className="hover:text-blue-400 transition-colors">
               <FaGithub className="text-2xl" />
             </a>
-            <a href="#" className="hover:text-blue-400 transition-colors">
+            <a href="https://www.linkedin.com/in/shanmukha-srinivas-52a1072b7" className="hover:text-blue-400 transition-colors">
               <FaLinkedin className="text-2xl" />
             </a>
-            <a href="#" className="hover:text-blue-400 transition-colors">
-              <FaTwitter className="text-2xl" />
-            </a>
+           
           </div>
 
           <p className="text-gray-400">© 2025 All rights reserved</p>

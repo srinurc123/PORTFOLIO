@@ -3,17 +3,33 @@ import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef, useState } from 'react'
 import { FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa'
+import emailjs from '@emailjs/browser'
 
 export default function Contact() {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true })
   const [formData, setFormData] = useState({ name: '', email: '', message: '' })
+  const [result, setResult] = useState('')
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    // Add your form submission logic here
-    console.log('Form submitted:', formData)
-  }
+ const handleSubmit = (e) => {
+  e.preventDefault();
+  emailjs.send(
+    'service_whm338r',
+    'template_lzbsil6',
+    {
+      name: formData.name,        // matches {{name}}
+      email: formData.email,      // matches {{email}}
+      message: formData.message   // matches {{message}}
+    },
+    'UTvA1QnGDzJnrCkJT'
+  )
+  .then(
+    () => setResult('✅ Message sent successfully!'),
+    () => setResult('❌ Failed to send message. Please try again.')
+  );
+  setFormData({ name: '', email: '', message: '' });
+};
+
 
   return (
     <section id="contact" className="py-20 px-4">
@@ -34,7 +50,7 @@ export default function Contact() {
               transition={{ delay: 0.2 }}
             >
               <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
-              
+
               <div className="space-y-6">
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 glass-effect rounded-full flex items-center justify-center">
@@ -107,6 +123,10 @@ export default function Contact() {
                   required
                 ></textarea>
               </div>
+
+              {result && (
+                <p className="text-center text-green-500 font-semibold">{result}</p>
+              )}
 
               <motion.button
                 type="submit"
